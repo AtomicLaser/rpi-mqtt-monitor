@@ -38,6 +38,22 @@ Then install this module needed for the script:
 ```bash
 $ pip install paho-mqtt
 ```
+Then create a folder in the home/pi user folder called scripts
+```bash
+$ mkdir scripts
+```
+```bash
+$ cd scripts
+```
+```bash
+$ wget xxxx
+```
+```bash
+$ wget xxxx
+```
+```bash
+$ mv config.py.example config.py
+```
 
 Copy ```/src/rpi-cpu2mqtt.py``` and ```/src/config.py.example``` to a folder of your choise (I am using ```/home/pi/scripts/``` ) and rename ```config.py.example``` to ```config.py```
 
