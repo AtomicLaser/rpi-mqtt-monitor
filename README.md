@@ -46,7 +46,7 @@ $ mkdir /home/pi/rpi-mqtt-monitor/
 $ cd /home/pi/rpi-mqtt-monitor/
 ```
 ```bash
-$ wget https://raw.githubusercontent.com/hjelev/rpi-mqtt-monitor/master/src/config.py.example
+$ wget https://raw.githubusercontent.com/hjelev/rpi-mqtt-monitor/master/src/config.py.example -O config.py
 ```
 ```bash
 $ wget https://raw.githubusercontent.com/hjelev/rpi-mqtt-monitor/master/src/rpi-cpu2mqtt.py
