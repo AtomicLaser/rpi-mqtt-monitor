@@ -40,16 +40,16 @@ $ pip install paho-mqtt
 ```
 Then create a folder in the home/pi user folder called scripts
 ```bash
-$ mkdir scripts
+$ mkdir /home/pi/rpi-mqtt-monitor/
 ```
 ```bash
-$ cd scripts
+$ cd /home/pi/rpi-mqtt-monitor/
 ```
 ```bash
-$ wget xxxx
+$ wget https://raw.githubusercontent.com/hjelev/rpi-mqtt-monitor/master/src/config.py.example
 ```
 ```bash
-$ wget xxxx
+$ wget https://raw.githubusercontent.com/hjelev/rpi-mqtt-monitor/master/src/rpi-cpu2mqtt.py
 ```
 ```bash
 $ mv config.py.example config.py
